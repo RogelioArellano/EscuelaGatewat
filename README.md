@@ -1,1 +1,1 @@
-# EscuelaGatewat
+# EscuelaGateway
