@@ -1,5 +1,7 @@
 package main
 
-func main() {
+import "SchoolGateway/app"
 
+func main() {
+	app.StartApplication()
 }
