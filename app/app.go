@@ -14,7 +14,7 @@ func StartApplication() {
 	}
 
 	// Inicializar el servidor TCP
-	listener, err := config.InitTCPListener()
+	listener, err := config.NewSocketClient()
 	if err != nil {
 		log.Fatal("Error al inicializar el servidor TCP:", err)
 	}
